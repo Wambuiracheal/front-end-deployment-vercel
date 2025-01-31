@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 function Artcard({id,artist,title,image,price,category,art,setArt}){
     console.log("Artwork ID:", id);
-    const url = 'http://127.0.0.1:5000/artworks'
+    const url = 'https://flask-deployment-jzj4.onrender.com/artworks'
     const [newArt,setNewArt] = useState({
         artist:'',
         title:'',
