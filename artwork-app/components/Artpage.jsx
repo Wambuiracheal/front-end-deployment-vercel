@@ -3,7 +3,7 @@ import Artlist  from './Artlist'
 import Newart from './Newart'
 
 function Artpage(){
-const url = 'http://127.0.0.1:5000/artworks'
+const url = 'https://flask-deployment-jzj4.onrender.com/artworks'
 const [art,setArt] = useState([])
 useEffect(() => {
     fetch(`${url}`)
